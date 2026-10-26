@@ -78,9 +78,9 @@ git push -u origin exercises     # the first time; then just git push
 
 ### 6. Open a pull request for feedback
 
-A **pull request** proposes the commits of a branch for merging into another branch, and shows them as a diff that others can comment on. Once you have solved some exercises, open one from the `exercises` branch of your fork into the `main` branch of this repository: on your fork's page on GitHub, press *Contribute*, then *Open pull request*. Before you send it, read it as a reviewer would: the diff, the result of the tests, what you would change.
+A **pull request** proposes the commits of a branch for merging into another branch, and shows them as a diff that others can comment on. Once you have solved some exercises, open one from the `exercises` branch of your fork into the `main` branch of this repository: on your fork's page on GitHub, press *Contribute*, then *Open pull request*. Before you send it, check that the last commit you pushed has its green tick, and read the pull request as a reviewer would: the diff, what you would change. In its description, write what you found difficult and any question you have.
 
-The tests run on your pull request, and the feedback comes as comments on its diff. Keep pushing to `exercises`: the pull request updates itself with every new commit. When the review is done, it is closed without merging, so that `main` keeps the exercises unsolved for everyone.
+The tests run in your fork, on every push, not in the pull request: the tick on your last commit is the result the review starts from. The feedback comes as comments on the diff. Keep pushing to `exercises`: the pull request updates itself with every new commit. When the review is done, it is closed without merging, so that `main` keeps the exercises unsolved for everyone.
 
 Pull requests that improve the exercises themselves (a typo, an unclear statement, a missing test) are welcome, and those are merged. Send them from a branch of their own, not from `exercises`.
 
